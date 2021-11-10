@@ -1,0 +1,14 @@
+{    
+    "name": "finapp/demo",
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "FinApp\\": "src/FinApp/"
+        }
+    },
+    "require": {
+        "php-di/php-di": "^6.3",
+        "nikic/fast-route": "^1.3"
+    }
+}
